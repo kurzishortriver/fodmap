@@ -1,20 +1,13 @@
 /* 01 IMPORT FONT FAMILY
 --------------------------------------------------------------- */
 @font-face {
-  font-family: "Montserrat-Regular";
-  src: url("../css/Montserrat/Montserrat-VariableFont_wght.ttf"); 
-  
-}
-
-@font-face {
-  font-family: "Montserrat-Italic";
-  src: url("../css/Montserrat/Montserrat-Italic-VariableFont_wght.ttf"); 
-  
-}
+  font-family: "FONT NAME";
+  src: url(""); 
+  }
 
 
 body {
-    font: 600 18 px 'Montserrat-Regular', sans-serif;
+    font: 600 18 px 'FONT NAME', sans-serif;
     margin: 20 px;
     padding-bottom: 16 px;
 }
