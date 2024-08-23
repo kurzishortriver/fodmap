@@ -1,4 +1,4 @@
-/* IMPORT FONT FAMILY
+/* Fonts
 --------------------------------------------------------------- */
 @font-face {
   font-family: "FONT NAME";
@@ -6,37 +6,59 @@
   }
 
 
+/* Body
+------------------------------------------------------ */
+
+
 body {
-    font: 600 18 px 'FONT NAME', sans-serif;
-    margin: 20 px;
-    padding-bottom: 16 px;
+	font: 600 18px 'FONT NAME', sans-serif;
+    margin: 20px;
+    padding-bottom: 16px;
 }
+
+
+/* Headlines
+------------------------------------------------------ */
+
 
 h1 {
-   
+    
 }
 
-.zwischenhead {
-    padding: 16 px 0 px 0 px 8 px;
-    font-size: 1.2 em;
+h2 {
+    padding: 16px 0px 0px 8px;
+    font-size: 1.2em;
     font-weight: 600;
-}   
+    
+}
+
+
+
+/* Suchfelder
+------------------------------------------------------ */
+
 
 #searchInput{
-    padding: 10 px;
-    font-size: 16 px;
-    width: 80 %;
-    max-width: 400 px;
-    margin-bottom: 20 px;
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    max-width: 400px;
+    margin-bottom: 20px;
 }
 
 #colorFilter {
-    padding: 10 px;
-    font-size: 16 px;
-    width: 80 %;
-    max-width: 400 px;
-    margin-bottom: 20 px;
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    max-width: 400px;
+    margin-bottom: 20px;
 }
+
+
+
+/* Listen
+------------------------------------------------------ */
+
 
 #wordList {
     list-style-type: none; /* Entfernt die Punkte vor den Listenelementen */
@@ -44,9 +66,14 @@ h1 {
 }
 
 #wordList li {
-    padding: 8 px 8 px 8 px 16 px;
-    font-size: 18 px;
+    padding: 8px 8px 8px 16px;
+    font-size: 18px;
 }
+
+
+/* Farbkennungen
+------------------------------------------------------ */
+
 
 .rot {
     background-color: #fff;
@@ -63,15 +90,11 @@ h1 {
     color: #469951;
 }
 
-.orange {
-    background-color: #fff;
-    color: #cc5500;
-}
-
 .lila {
     background-color: #fff;
     color: #AF2FBA;
 }
+
 
 .hidden {
     display: none;
