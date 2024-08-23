@@ -1,9 +1,16 @@
 /* Fonts
 --------------------------------------------------------------- */
 @font-face {
+  font-family: "Montserrat-Regular";
+  src: url("FONT LINK") format("truetype"); 
+  
+}
+
+@font-face {
   font-family: "FONT NAME";
-  src: url(""); 
-  }
+  src: url("FONT LINK") format("truetype"); 
+  
+}
 
 
 /* Body
@@ -11,9 +18,27 @@
 
 
 body {
-	font: 600 18px 'FONT NAME', sans-serif;
+    font: 600 18px 'Montserrat-Regular', Arial, sans-serif;
+    line-height: 1.2;
     margin: 20px;
     padding-bottom: 16px;
+}
+
+
+p, li, a {
+    font-size: 1em; /* Standard-Schriftgröße für Text, der nicht durch andere Regeln definiert wird */
+    color: #333; /* Einheitliche Textfarbe für bessere Lesbarkeit */
+    margin-bottom: 0; /* Fügt einen Standardabstand unterhalb von Absätzen und Listen hinzu */
+}
+
+a {
+    text-decoration: none; /* Entfernt die Unterstreichung von Links */
+    color: #000; /* Farbe für Links */
+}
+
+a:hover {
+    text-decoration: underline; /* Fügt die Unterstreichung beim Hover zurück */
+    color: #000; /* Farbe für Links */
 }
 
 
@@ -22,10 +47,15 @@ body {
 
 
 h1 {
+    color: #000;
+    padding: 20px 0px 0px 8px;
+    font-size: 1.2em;
+    font-weight: 600;
     
 }
 
 h2 {
+    color: #000;
     padding: 16px 0px 0px 8px;
     font-size: 1.2em;
     font-weight: 600;
