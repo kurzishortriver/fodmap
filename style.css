@@ -1,0 +1,119 @@
+/* 01 IMPORT FONT FAMILY
+--------------------------------------------------------------- */
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../css/Montserrat/Montserrat-VariableFont_wght.ttf"); 
+  
+}
+
+@font-face {
+  font-family: "Montserrat-Italic";
+  src: url("../css/Montserrat/Montserrat-Italic-VariableFont_wght.ttf"); 
+  
+}
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("../css/Open_Sans/OpenSans-Regular.eot"); /* IE9 Compat Modes */
+  src: url("../css/Open_Sans/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../css/Open_Sans/OpenSans-Regular.otf") format("opentype"), /* Open Type Font */
+    url("../css/Open_Sans/OpenSans-Regular.svg") format("svg"), /* Legacy iOS */
+    url("../css/Open_Sans/OpenSans-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../css/Open_Sans/OpenSans-Regular.woff") format("woff"), /* Modern Browsers */
+    url("../css/Open_Sans/OpenSans-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans-Italic";
+  src: url("../css/Open_Sans/OpenSans-Italic.eot"); /* IE9 Compat Modes */
+  src: url("../css/Open_Sans/OpenSans-Italic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../css/Open_Sans/OpenSans-Italic.otf") format("opentype"), /* Open Type Font */
+    url("../css/Open_Sans/OpenSans-Italic.svg") format("svg"), /* Legacy iOS */
+    url("../css/Open_Sans/OpenSans-Italic.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../css/Open_Sans/OpenSans-Italic.woff") format("woff"), /* Modern Browsers */
+    url("../css/Open_Sans/OpenSans-Italic.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+body {
+	font: 600 18px 'Montserrat-Regular', sans-serif;
+    margin: 20px;
+    padding-bottom: 16px;
+}
+
+h1 {
+    
+}
+
+.zwischenhead {
+    padding: 16px 0px 0px 8px;
+    font-size: 1.2em;
+    font-weight: 600;
+}   
+
+#searchInput{
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+#colorFilter {
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+#wordList {
+    list-style-type: none; /* Entfernt die Punkte vor den Listenelementen */
+    padding: 0; /* Entfernt den Standard-Einzug der Liste */
+}
+
+#wordList li {
+    padding: 8px 8px 8px 16px;
+    font-size: 18px;
+}
+
+.rot {
+    background-color: #fff;
+    color: #CA1437;
+}
+
+.gelb {
+    background-color: #fff;
+    color: #E0C327;
+}
+
+.gruen {
+    background-color: #fff;
+    color: #469951;
+}
+
+.orange {
+    background-color: #fff;
+    color: #cc5500;
+}
+
+.lila {
+    background-color: #fff;
+    color: #AF2FBA;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+.hidden {
+    display: none;
+}
+  
